@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container{
+    width: 100%;
+}
+
+.wrapper{
+    width: 900px;
+    margin: auto;
+}
+
+.dark{
+    background-color: rgb(29, 27, 27);
+    color: white;
+}
+
+.light{
+    background-color: #dfe3eb;
+    color: black;
+}
+
+#top-left{
+    float: left;
+    line-height: 50px;
+}
+
+#top-right{
+    float: right;
+    line-height: 50px;
+}
+
+#clear{
+    clear: both;
+}
+
+#logo{
+    float: left;
+}
+
+#logo>img{
+    width: 190px;
+    height: 100px;
+}
+
+#search{
+    float: right;
+}
+
+#text{
+    margin-top: 41px;
+    width: 185px;
+    border-radius: 10px;
+}
+
+#searchBtn{
+    width: 95px;
+    background-color: green;
+    color: white;
+    border-color: green;
+    border-radius: 10px;
+}
+
+#searchBtn:hover{
+    background-color: greenyellow;
+    color: black;
+    border-color: yellowgreen;
+}
+
+#nav{
+    text-align: center;
+}
+
+#nav>ul{
+    list-style-type: none;
+    padding: 17px;
+}
+
+#nav>ul>li{
+    display: inline;
+}
+
+#nav>ul>li>a{
+    color: white;
+    text-decoration: none;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+    background-color: green;
+}
+
+#nav>ul>li>a:hover{
+    background-color: yellowgreen;
+}
+
+#slider-img>img{
+    margin-top: 10px;
+    border: 10px solid whitesmoke;
+    outline: 1px solid black;
+    height: 400px;
+    width: 880px;
+    box-shadow: 3px 3px 5px 5px gray;
+}
+
+#services{
+    margin-top: 10px;
+}
+
+#services>h2{
+    text-align: center;
+    color: green;
+    padding-top: 15px;
+}
+
+#services>p{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+#card{
+    float: left;
+    margin-left: 20px;
+    width: 270px;
+    height: 360px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px gray;
+    margin-bottom: 20px;
+}
+
+
+#circle-box{
+    border-radius: 10px;
+    width: 260px;
+    height: 130px;
+    border: 1px solid white;
+}
+
+
+.circle{
+    margin-top: 15px;
+    margin-left: 86px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid green;
+    box-shadow: 0px 0px 14px 0px green;
+}
+
+#icon{
+    padding-top: 33px;
+    padding-left: 33px;
+    font-size: 30px;
+    color: green;
+}
+
+#card>h3{
+    text-align: center;
+    color: green;
+}
+
+#card>p{
+    text-align: justify;
+    padding-top: 15px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#copyright-text{
+    text-align: center;
+    line-height: 40px;
+    padding-bottom: 10px;
+}
